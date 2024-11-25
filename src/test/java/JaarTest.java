@@ -48,6 +48,6 @@ class JaarTest {
 
     @Test
     void deHashCodeVanGelijkeJarenIsGelijk(){
-        assertThat(new Jaar(2015)).hasSameHashCodeAs()
+        assertThat(new Jaar(2015)).hasSameHashCodeAs(new Jaar(2015));
     }
 }
